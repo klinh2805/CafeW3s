@@ -1,0 +1,40 @@
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    #nav li {
+        width: 24.5%;
+    }
+    .text-content {
+        font-size: 68px;
+    }
+    .text-center {
+        padding-left: 25px;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+    #nav li {
+        width: 24.1%;
+    }
+    #slider {
+        padding-top: 70%;
+    }
+    .text-des {
+        font-size: 14px;
+    }
+    .text-content {
+        font-size: 50px;
+    }
+    .text-center {
+        padding-left: 25px;
+        margin-bottom: 18px;
+    }
+    .content-main {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
